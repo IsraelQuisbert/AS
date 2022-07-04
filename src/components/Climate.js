@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Button from './Button';
 
 import clear from '../gift/clear.gif';
-// import cloudss from '../gift/cloudss.gif';
+import cloudss from '../gift/cloudss.gif';
 import rain from '../gift/rain.gif';
 import storm from '../gift/storm.gif';
 import snow from '../gift/snow.gif';
@@ -34,7 +34,7 @@ const Climate = () => {
                     if (weatherDescription === "clear sky" || weatherDescription === "few clouds") {
                         setBkgr(clear)
                     } else if (weatherDescription === "broken clouds" || weatherDescription === "scattered clouds") {
-                        setBkgr(clear)
+                        setBkgr(cloudss)
 
                     } else if (weatherDescription === "shower rain" || weatherDescription === "rain") {
                         setBkgr(rain)
